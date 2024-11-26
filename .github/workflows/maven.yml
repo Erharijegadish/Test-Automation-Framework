@@ -68,5 +68,4 @@ jobs:
         folder: public/extent-reports/
         token: ${{secrets.TEST12345}}
         clean: true
-        
-   
+
