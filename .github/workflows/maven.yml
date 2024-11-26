@@ -23,7 +23,6 @@ jobs:
       with:
         java-version: '19'
         distribution: 'temurin'
-        cache: maven
         
     - name: Build and Execute Test Automation with Maven
       run: mvn test -X -Dbrowser=chrome -DisLambdaTest=true -DisHeadless=false
